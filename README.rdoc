@@ -1,1 +1,2 @@
 # Raspagem da pagina https://www.w3schools.io/file/yaml-sample-example/ utilizando o scrapy
+esse codigo está em  arquivo site_w3.py dentro da pasta w3.
