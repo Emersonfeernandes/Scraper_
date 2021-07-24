@@ -1,1 +1,8 @@
-# Raspagem de uma pagina Wikipédia
+# Raspagem da pagina https://www.w3schools.io/file/yaml-sample-example/ utilizando o scrapy.
+
+import scrapy
+
+class Comenta_Spider(scrapy.Spider):
+    name = 'w3'
+    start_urls = ['https://www.w3schools.io/file/yaml-sample-example/']
+
